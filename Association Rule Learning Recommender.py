@@ -44,7 +44,7 @@ def check_df(dataframe , head = 5 ,tail = 5):
         print(dataframe.dtypes,end = "\n\n")
         
         print(" ndim ".upper().center(50,"#"),end = "\n\n")
-        print(f"{dataframe.ndim} Boyutlu",end = "\n\n")
+        print(f"{dataframe.ndim} Dimension",end = "\n\n")
         
         print(" na ".upper().center(50,"#"),end = "\n\n")
         print(dataframe.isnull().sum(),end = "\n\n")
